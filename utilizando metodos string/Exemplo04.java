@@ -16,6 +16,13 @@ public class Exemplo04 {
         for(String palavra : palavras){
             System.out.println(palavra);
         }
+        for(String palavra : palavras){            
+            System.out.print("[");
+            for(char c : palavra.toCharArray()){
+                System.out.print(" " + c + " ");
+            }
+            System.out.println("]");
+        }
         //for(int i=0; i< palavras.length; i++){
         //   String palavra = palavras[i];
         //}
